@@ -1,0 +1,120 @@
+{
+  "name": "Andromeda Bordered",
+  "author": "",
+  "globals": {
+    "background": "#262A33",
+    "foreground": "#D5CED9",
+    "caret": "#D5CED9",
+    "block_caret": "#D5CED9",
+    "line_highlight": "#2e323d",
+    "misspelling": "#FC644D",
+    "fold_marker": "",
+    "accent": "",
+    "gutter": "",
+    "gutter_foreground": "#746f77",
+    "line_diff_added": "#29BF1220",
+    "line_diff_modified": "",
+    "line_diff_deleted": "#F21B3F20",
+    "selection": "#3D4352",
+    "inactive_selection": "#23262E",
+    "inactive_selection_foreground": "#00e8c6",
+    "highlight": "#59b8b377",
+    "find_highlight": "#59b8b377",
+    "find_highlight_foreground": "",
+    "guide": "#333844",
+    "active_guide": "",
+    "stack_guide": "",
+    "brackets_foreground": "#746f77",
+    "tags_foreground": "#746f77",
+    "shadow": "#14151A"
+  },
+  "variables": {
+    "black": "",
+    "white": "",
+    "red": "#ee5d43",
+    "green": "#96E072",
+    "yellow": "#FFE66D",
+    "orange": "#FFE66D",
+    "blue": "#7cb7ff",
+    "magenta": "#ff00aa",
+    "cyan": "#00e8c6"
+  },
+  "rules": [
+    {
+      "foreground": "#D5CED9",
+      "background": "#23262E",
+      "font_style": 0
+    },
+    {
+      "name": "Comment color",
+      "foreground": "#A0A1A7cc",
+      "font_style": 0,
+      "scope": "comment, markup.quote.markdown, meta.diff, meta.diff.header"
+    },
+    {
+      "name": "Text Color",
+      "foreground": "#D5CED9",
+      "font_style": 0,
+      "scope": "meta.template.expression.js, constant.name.attribute.tag.jade, punctuation.definition.metadata.markdown, punctuation.definition.string.end.markdown, punctuation.definition.string.begin.markdown"
+    },
+    {
+      "name": "Cyan",
+      "foreground": "#00e8c6",
+      "font_style": 0,
+      "scope": "variable, meta.property.object.js, variable.language, support.variable, entity.name.tag.yaml, constant.character.entity.html, source.css entity.name.tag.reference, beginning.punctuation.definition.list.markdown, source.css entity.other.attribute-name.parent-selector, meta.structure.dictionary.json support.type.property-name"
+    },
+    {
+      "name": "Orange",
+      "foreground": "#f39c12",
+      "font_style": 0,
+      "scope": "markup.bold, constant.numeric, meta.group.regexp, constant.other.php, support.constant.ext.php, constant.other.class.php, support.constant.core.php, fenced_code.block.language, constant.other.caps.python, entity.other.attribute-name, support.type.exception.python, source.css keyword.other.unit, variable.other.object.property.js.jsx, variable.other.object.js"
+    },
+    {
+      "name": "Yellow",
+      "foreground": "#FFE66D",
+      "font_style": 0,
+      "scope": "variable.function, markup.list, text.xml string, entity.name.type, support.function, entity.other.attribute-name, meta.at-rule.extend, entity.name.function, entity.other.inherited-class, entity.other.keyframe-offset.css, text.html.markdown string.quoted, meta.function-call.generic.python, meta.at-rule.extend support.constant, entity.other.attribute-name.class.jade, source.css entity.other.attribute-name, text.xml punctuation.definition.string"
+    },
+    {
+      "name": "Pink",
+      "foreground": "#ff00aa",
+      "font_style": 0,
+      "scope": "markup.heading, variable.language.this.js, variable.language.special.self.python"
+    },
+    {
+      "name": "Hot Pink",
+      "foreground": "#f92672",
+      "font_style": 0,
+      "scope": "punctuation.definition.interpolation, punctuation.section.embedded.end.php, punctuation.section.embedded.end.ruby, punctuation.section.embedded.begin.php, punctuation.section.embedded.begin.ruby, punctuation.definition.template-expression, entity.name.tag"
+    },
+    {
+      "name": "Purple",
+      "foreground": "#c74ded",
+      "font_style": 0,
+      "scope": "punctuation.section.block.begin, punctuation.section.block.end, punctuation.section.group.begin, punctuation.section.group.end, storage, keyword, meta.link, meta.image, markup.italic, source.js support.type"
+    },
+    {
+      "name": "Blue",
+      "foreground": "#7cb7ff",
+      "font_style": 0,
+      "scope": "string.regexp, markup.changed"
+    },
+    {
+      "name": "Red",
+      "foreground": "#ee5d43",
+      "font_style": 0,
+      "scope": "constant, support.class, keyword.operator, support.constant, text.html.markdown string, source.css support.function, source.php support.function, support.function.magic.python, entity.other.attribute-name.id, markup.deleted"
+    },
+    {
+      "name": "Green",
+      "foreground": "#96E072",
+      "font_style": 0,
+      "scope": "string, text.html.php string, markup.inline.raw, markup.inserted, punctuation.definition.string, punctuation.definition.markdown, text.html meta.embedded source.js string, text.html.php punctuation.definition.string, text.html meta.embedded source.js punctuation.definition.string, text.html punctuation.definition.string, text.html string"
+    },
+    {
+      "name": "Font Underline",
+      "font_style": "underline",
+      "scope": "entity.other.inherited-class"
+    }
+  ]
+}
